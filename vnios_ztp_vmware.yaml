@@ -199,7 +199,7 @@
       user: "{{ lookup('ini', 'user_id section=grid_details file=nios_details.ini') }}"
       password: "{{ lookup('ini', 'password section=grid_details file=nios_details.ini') }}"
       status_code: 201,302,200
-      method: POST
+      # method: POST
       header:
          Content-Type: "application/json"
       body:
